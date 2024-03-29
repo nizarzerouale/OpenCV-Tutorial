@@ -43,26 +43,31 @@ This repository contains a series of Python scripts and Jupyter notebooks design
 Ensure you have Python installed on your system. This project requires OpenCV, NumPy, and Matplotlib libraries. You can install these dependencies using pip:
 
 ```bash
-pip install opencv-python numpy matplotlib ```
+pip install opencv-python numpy matplotlib 
 
+```
 ##Usage
 Each script can be run individually to demonstrate a specific concept:
 
 To perform camera calibration and save the parameters:
 
 ```bash
-python Camera_Calibration.py```
+python Camera_Calibration.py
+```
 To generate a 3D effect on a chessboard image:
 
 ```bash
-python 3D_effect.py```
+python 3D_effect.py
+```
 To create a disparity map from a pair of stereo images:
 
 ```bash
-python create_disparity_map.py```
+python create_disparity_map.py
+```
 To explore epipolar geometry:
 
 ```bash
-python epipolar_geometry_demo.py```
+python epipolar_geometry_demo.py
+```
 
 Please refer to the comments within each script for further details on their operation and modifications.
